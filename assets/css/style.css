@@ -344,9 +344,11 @@ body {
   #main-container {
     margin: 0 auto;
     width:  580px;
+    padding-top: 0px;
   }
 
   #masthead {
+    position: static;
     width: 620px;
     height: 155px;
     display: flex;
@@ -382,7 +384,7 @@ body {
   }
 
 .main-section {
-  margin: 40px auto;
+  margin: 20px auto;
   width:  580px;
   padding-right:  0;
 }
